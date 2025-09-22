@@ -94,10 +94,10 @@ python app.py prompts/solicitud_devolucionej1.txt
 ```bash
 python app.py prompts/solicitud_devolucionej2.txt
 ``````
-bash
+```bash
 python app.py prompts/solicitud_devolucionej3.txt
 ``````
-bash
+```bash
 python app.py prompts/solicitud_devolucionej4.txt
 ```
 ## Estructura de Archivos
