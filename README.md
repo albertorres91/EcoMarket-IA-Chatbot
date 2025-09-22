@@ -110,8 +110,8 @@ python app.py prompts/solicitud_devolucionej4.txt
 - solicitud_devolucion.txt: Ejemplo de un cliente queriendo devolver un producto.
 - README.md: Instrucciones del uso de la aplcación.
 -   `DOCUMENTACION/`: Carpeta que contiene el análisis estratégico del proyecto.
-    -   `FASE_1-SELECCION_DEL_MODELO.md`
-    -   `FASE_2-EVALUACION_DE_RIESGOS.md`
+    -   `fase_1_seleccion_modelo.md`
+    -   `fase_2_evaluacion_riesgos.md`
 
 
 ## Técnicas de Prompt Engineering Aplicadas
