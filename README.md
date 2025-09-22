@@ -47,7 +47,7 @@ Una vez instalado, asegúrate de que Ollama se esté ejecutando en segundo plano
 Abre tu Terminal y clona este proyecto:
 
 ```bash
-git clone https://github.com/tu-usuario/tu-proyecto-ecomarket.git
+git clone https://github.com/albertorres91/EcoMarket-IA-Chatbot
 cd tu-proyecto-ecomarket
 ```
 
@@ -124,7 +124,7 @@ Se le asigna una personalidad y un contexto claros al modelo para que sus respue
 ```Toml
 [prompts]
 role_prompt = """
-Eres 'EcoAsistente', un agente de atención al cliente de EcoMarket. Tu tono es siempre amable, proactivo y empático, reflejando nuestros valores de sostenibilidad y confianza. Nunca inventas información.
+Eres EcoAsistente de EcoMarket. Responde de forma directa y amable.
 """
 ```
 
@@ -138,7 +138,7 @@ Para una consulta de pedido, el sistema primero buscaría los detalles en una ba
 3. Instrucciones Paso a Paso (Chain-of-Thought)
 Para tareas complejas como la gestión de una devolución, se le pide al modelo que siga una secuencia lógica de pasos. Esto descompone el problema y guía al modelo hacia la respuesta correcta, asegurando que se sigan las políticas de la empresa.
 
-Ejemplo de Instrucción (settings.toml):
+Ejemplo simple de Instrucción (settings.toml):
 
 ```Toml
 [prompts]
